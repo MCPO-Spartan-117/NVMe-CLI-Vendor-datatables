@@ -7,26 +7,36 @@ This repo documents the featuresets of NVMes as there doesn't seem to be any off
 #### Context:
 
 Vendor:
-* (Model) : (Capacities)-(Variants) : (NVMe Protocol)
+* (Model) : (Capacities)-(Variants) : (NVMe Protocol) : (PCIe Gen) : (Flags)
+
+[NVMe Protocols](https://nvmexpress.org/specification/nvm-express-base-specification):
+* 1.0-1.4
+* 2.0
+
+Flags:
+* F4K = Formatible 4 kilobyte sectors
 
 #### :Context
 
 Corsair:
-* [Force MP510](https://pcpartpicker.com/product/BVbCmG/corsair-mp510-960-gb-m2-2280-nvme-solid-state-drive-cssd-f960gbmp510b) : 960GB : 1.3
+* [Force MP510](https://pcpartpicker.com/product/BVbCmG/corsair-mp510-960-gb-m2-2280-nvme-solid-state-drive-cssd-f960gbmp510b) : 960GB : 1.3 : 3 : F4K
+
+Samsung:
+* [960 PRO](https://pcpartpicker.com/product/C3mxFT/samsung-960-pro-10tb-m2-2280-solid-state-drive-mz-v6p1t0bw): 1TB : 1.2 : 3
+* [980 PRO](https://pcpartpicker.com/product/f3cRsY/samsung-980-pro-2-tb-m2-2280-nvme-solid-state-drive-mz-v8p2t0bam): 2TB : 1.3 : 4
 
 ## TODO:
 
-* Add Samsung 970/80 EVO(Have one of them somewhere inaccessible atm, don't remember which though)
 * Learn to use the other `id-*` arguments, currently don't have a NVMe that supports the other subsets that the other arguments need.
 
 ## Contributions
 You can make a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to add more NVMes to this list.
 
 Linux:
-1. Get the `nvme-cli` package, for most distros it's just `nvme-cli`, so usually no distro resolving needed.
+1. Get the `nvme-cli` package, for most distros it's just `nvme-cli`, so usually no distro resolving needed, however version 2.8 was used, 2.6 has `--vendor-specific` and `--verbose` with the same shorthand `-v` which errors out and older versions like 2.4 may not have `--verbose` entirely.
 2. Use `TEMPVAR="<Vendor>/<Model>/<Capacity>-<Variant>" mkdir -p $TEMPVAR && cd $TEMPVAR` in the git repo (Omit `<Variant>` if there is none).
 3. Use `sudo nvme id-ctrl -HVv /dev/nvme? > id-ctrl` for the controller.
-4. Use `sudo nvme id-ns -HVv /dev/nvme?n? > id-ns` for one or all namespaces.
+4. Use `sudo nvme id-ns -HVv /dev/nvme?n? > id-ns?` for one or all namespaces.
 
 Windows:
 1. Currently i don't know any way to get the same information as `nvme-cli` doesn't have a Windows build.
