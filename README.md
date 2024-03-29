@@ -19,11 +19,11 @@ Flags:
 #### :Context
 
 Corsair:
-* [Force MP510](https://pcpartpicker.com/product/BVbCmG/corsair-mp510-960-gb-m2-2280-nvme-solid-state-drive-cssd-f960gbmp510b) : 960GB : 1.3 : 3 : F4K
+* [Force MP510](https://pcpartpicker.com/product/BVbCmG) : 960GB : 1.3 : 3 : F4K
 
 Samsung:
-* [960 PRO](https://pcpartpicker.com/product/C3mxFT/samsung-960-pro-10tb-m2-2280-solid-state-drive-mz-v6p1t0bw): 1TB : 1.2 : 3
-* [980 PRO](https://pcpartpicker.com/product/f3cRsY/samsung-980-pro-2-tb-m2-2280-nvme-solid-state-drive-mz-v8p2t0bam): 2TB : 1.3 : 4
+* [960 PRO](https://pcpartpicker.com/product/C3mxFT): 1TB : 1.2 : 3
+* [980 PRO](https://pcpartpicker.com/product/f3cRsY): 2TB : 1.3 : 4
 
 ## TODO:
 
