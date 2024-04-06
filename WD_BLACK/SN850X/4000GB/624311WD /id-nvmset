@@ -1,0 +1,12 @@
+NVME Identify NVM Set List 0:
+nid     : 1
+.................
+ NVM Set Attribute Entry[ 0]
+.................
+nvmset_id               : 1
+endurance_group_id      : 1
+random_4k_read_typical  : 0
+optimal_write_size      : 131072
+total_nvmset_cap        : 4000787030016
+unalloc_nvmset_cap      : 0
+.................
