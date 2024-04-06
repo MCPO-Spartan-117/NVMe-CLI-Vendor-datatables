@@ -1,5 +1,5 @@
 # NVMe-CLI Vendor datatables
-# [OVERVIEW for NVMes](https://github.com/MCPO-Spartan-117/NVMe-CLI-Vendor-datatables?tab=overview-ov-file)
+# [OVERVIEW for NVMes](https://github.com/MCPO-Spartan-117/NVMe-CLI-Vendor-datatables/blob/master/OVERVIEW.md)
 
 This repo documents the featuresets of NVMes as there doesn't seem to be any official documention on most NVMes as for what they support.  
 Also consult [linux-hardware](https://linux-hardware.org) for more general purpose data or if this repo is lacking any NVMe data you're looking for.
