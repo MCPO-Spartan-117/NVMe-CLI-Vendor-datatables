@@ -55,28 +55,28 @@ WD_BLACK:
 
 ## Vendor Commands
 
-The following vendors have plugins in `nvme-cli` as of version 2.8:
-  ymtc            Ymtc vendor specific extensions
-  wdc             Western Digital vendor specific extensions
-  virtium         Virtium vendor specific extensions
-  transcend       Transcend vendor specific extensions
-  toshiba         Toshiba NVME plugin
-  solidigm        Solidigm vendor specific extensions
-  shannon         Shannon vendor specific extensions
-  seagate         Seagate vendor specific extensions
-  sfx             ScaleFlux vendor specific extensions
-  nvidia          NVIDIA vendor specific extensions
-  netapp          NetApp vendor specific extensions
-  nbft            ACPI NBFT table extensions
-  micron          Micron vendor specific extensions
-  memblaze        Memblaze vendor specific extensions
-  intel           Intel vendor specific extensions
-  inspur          Inspur vendor specific extensions
-  innogrit        innogrit vendor specific extensions
-  huawei          Huawei vendor specific extensions
-  fdp             Manage Flexible Data Placement enabled devices
-  dera            Dera vendor specific extensions
-  dell            DELL vendor specific extensions
-  amzn            Amazon vendor specific extensions
+The following vendors have plugins in `nvme-cli` as of version 2.8:  
+`  ymtc            Ymtc vendor specific extensions`  
+`  wdc             Western Digital vendor specific extensions`  
+`  virtium         Virtium vendor specific extensions`  
+`  transcend       Transcend vendor specific extensions`  
+`  toshiba         Toshiba NVME plugin`  
+`  solidigm        Solidigm vendor specific extensions`  
+`  shannon         Shannon vendor specific extensions`  
+`  seagate         Seagate vendor specific extensions`  
+`  sfx             ScaleFlux vendor specific extensions`  
+`  nvidia          NVIDIA vendor specific extensions`  
+`  netapp          NetApp vendor specific extensions`  
+`  nbft            ACPI NBFT table extensions`  
+`  micron          Micron vendor specific extensions`  
+`  memblaze        Memblaze vendor specific extensions`  
+`  intel           Intel vendor specific extensions`  
+`  inspur          Inspur vendor specific extensions`  
+`  innogrit        innogrit vendor specific extensions`  
+`  huawei          Huawei vendor specific extensions`  
+`  fdp             Manage Flexible Data Placement enabled devices`  
+`  dera            Dera vendor specific extensions`  
+`  dell            DELL vendor specific extensions`  
+`  amzn            Amazon vendor specific extensions`  
   
 Use `nvme <plugin> --help` to see extra vendor commands.

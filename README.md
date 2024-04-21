@@ -13,7 +13,7 @@ You can make a [pull request](https://docs.github.com/en/pull-requests/collabora
 
 Linux:
 1. Get the `nvme-cli` package, for most distros it's just `nvme-cli`, so usually no distro resolving needed, however version 2.8 was used, 2.6 has `--vendor-specific` and `--verbose` with the same shorthand `-v` which errors out and older versions like 2.4 may not have `--verbose` entirely.
-2. Use `TEMPVAR="<Vendor>/<Model>/<Capacity>-<Variant>/<Firmware>" mkdir -p $TEMPVAR && cd $TEMPVAR` in the git repo (Omit `<Variant>` if there is none, you can get firmware from `sudo nvme id-ctrl /dev/nvme? | grep "fr  *:"'`).
+2. Use `TEMPVAR="<Vendor>/<Model>/<Capacity>-<Variant>/<Firmware>" mkdir -p $TEMPVAR && cd $TEMPVAR` in the git repo (Omit `<Variant>` if there is none, you can get firmware from `sudo nvme id-ctrl /dev/nvme? | grep "fr  *:"`).
 3. Use `sudo nvme id-ctrl -HVv /dev/nvme? > id-ctrl` for the controller.
 4. Use `sudo nvme id-ns -HVv /dev/nvme?n? > id-ns?` for one or all namespaces.
 
