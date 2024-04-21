@@ -36,6 +36,7 @@ Corsair:
 
 Crucial:
 * P3 Plus : [techpowerup.com](https://www.techpowerup.com/ssd-specs/crucial-p3-plus-1-tb.d825) [pcpartpicker.com](https://pcpartpicker.com/product/chzhP6) : QLC M.2-2280 : 4TB : 1.4 : 4x4 : FW[R/W] F4K
+* T500 : [techpowerup.com](https://www.techpowerup.com/ssd-specs/crucial-t500-2-tb.d1768) [pcpartpicker.com](https://pcpartpicker.com/product/M8yH99) : TLC M.2-2280 : 2TB : 2.0 : 4x4 : FW2[R/W] F4K
 
 Micron:
 * 2400_MTFDKBA512QFM : [techpowerup.com](https://www.techpowerup.com/ssd-specs/micron-2400-512-gb.d804) : LTP-Ne QLC M.2-2280 : 512GB : 1.4 : 4x4 : FW2[R/W]
