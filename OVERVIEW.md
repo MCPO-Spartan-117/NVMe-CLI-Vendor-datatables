@@ -22,6 +22,7 @@ Application:
 * 2.0
 
 Flags:
+* ADO = abnormal dmesg output, check the NVMe's dmesg output
 * FW?[R/W] = Number of firmware slots and if firmware is readable and/or writable, this doesn't mean it's safe to update the firmware even if writeable though, check wikis like [this one for arch linux](https://wiki.archlinux.org/title/Solid_state_drive/NVMe) for special instructions
 * [NSS?](https://nvmexpress.org/resource/nvme-namespaces) = Namespace Support and how many
 * [F4K](https://wiki.archlinux.org/title/Advanced_Format#NVMe_solid_state_drives) = Formatible 4 kilobyte sectors
@@ -32,7 +33,7 @@ Flags:
 * XPG SX8200 Pro : [!1-reddit.com](https://www.reddit.com/r/hardware/comments/lk2f5i/breaking_news_adata_sx8200_pro_m2_ssd_performance) [techpowerup.com](https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-1-tb.d162) [pcpartpicker.com](https://pcpartpicker.com/product/zR3H99) : TLC? M.2-2280 : 1TB-32B3T8EA : 1.3 : 3x4 : FW2[R/W]
 
 Corsair:
-* Force MP510 : [techpowerup.com](https://www.techpowerup.com/ssd-specs/corsair-mp510-960-gb.d377) [pcpartpicker.com](https://pcpartpicker.com/product/BVbCmG) : TLC M.2-2280 : 960GB : 1.3 : 3x4 : FW[R/W] F4K
+* Force MP510 : [techpowerup.com](https://www.techpowerup.com/ssd-specs/corsair-mp510-960-gb.d377) [pcpartpicker.com](https://pcpartpicker.com/product/BVbCmG) : TLC M.2-2280 : 960GB : 1.3 : 3x4 : ADO FW[R/W] F4K
 
 Crucial:
 * P3 Plus : [techpowerup.com](https://www.techpowerup.com/ssd-specs/crucial-p3-plus-1-tb.d825) [pcpartpicker.com](https://pcpartpicker.com/product/chzhP6) : QLC M.2-2280 : 4TB : 1.4 : 4x4 : FW[R/W] F4K

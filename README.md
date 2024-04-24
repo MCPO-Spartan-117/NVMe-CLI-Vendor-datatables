@@ -16,6 +16,7 @@ Linux:
 2. Use `TEMPVAR="<Vendor>/<Model>/<Capacity>-<Variant>/<Firmware>" mkdir -p $TEMPVAR && cd $TEMPVAR` in the git repo (Omit `<Variant>` if there is none, you can get firmware from `sudo nvme id-ctrl /dev/nvme? | grep "fr  *:"`).
 3. Use `sudo nvme id-ctrl -HVv /dev/nvme? > id-ctrl` for the controller.
 4. Use `sudo nvme id-ns -HVv /dev/nvme?n? > id-ns?` for one or all namespaces.
+5. (Optional) Use `sudo dmesg | grep -e nvme? | grep -v -e "nvme[0-9]n[0-9]" -e BTRFS > dmesg` to log dmesg quirks for the nvme.
 
 Windows:
 1. Currently i don't know any way to get the same information as `nvme-cli` doesn't have a Windows build.

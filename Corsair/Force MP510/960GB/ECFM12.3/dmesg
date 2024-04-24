@@ -1,0 +1,6 @@
+[    0.497131] nvme nvme1: pci function 0000:08:00.0
+[    0.501972] nvme nvme1: missing or invalid SUBNQN field.
+[    0.501993] nvme nvme1: Shutdown timeout set to 10 seconds
+[    0.503590] nvme nvme1: 8/0/0 default/read/poll queues
+[    0.503846] nvme nvme1: ctrl returned bogus length: 16 for NVME_NIDT_EUI64
+[    0.503879] nvme nvme1: Ignoring bogus Namespace Identifiers
